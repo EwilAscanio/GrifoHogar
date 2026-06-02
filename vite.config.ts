@@ -12,4 +12,10 @@ export default defineConfig({
     // nitro/vite builds from this
     server: { entry: "server" },
   },
+  // Sobrescribimos el destino de Nitro para Netlify Functions
+  vite: {
+    nitro: {
+      preset: "netlify"
+    }
+  }
 });
