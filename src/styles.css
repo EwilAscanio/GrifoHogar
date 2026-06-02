@@ -183,6 +183,10 @@
     transform: translateY(0);
   }
 
+  /* Hide scrollbar */
+  .no-scrollbar::-webkit-scrollbar { display: none; }
+  .no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+
   /* Marquee */
   @keyframes marquee {
     from { transform: translateX(0); }

@@ -5,7 +5,9 @@ import { Experience } from "@/components/site/Experience";
 import { Categories } from "@/components/site/Categories";
 import { Showroom } from "@/components/site/Showroom";
 import { Products } from "@/components/site/Products";
+import { ProductsGallery } from "@/components/site/ProductsGallery";
 import { WhyUs } from "@/components/site/WhyUs";
+import { DesignVision } from "@/components/site/DesignVision";
 import { Brands } from "@/components/site/Brands";
 import { Testimonials } from "@/components/site/Testimonials";
 import { Promo } from "@/components/site/Promo";
@@ -46,7 +48,9 @@ function Index() {
       <Categories />
       <Showroom />
       <Products />
+      <ProductsGallery />
       <WhyUs />
+      <DesignVision />
       <Brands />
       <Testimonials />
       <Visualizer />

@@ -1,0 +1,100 @@
+import { Product } from "./productTypes";
+import p1 from "@/assets/product-1.jpg";
+import p2 from "@/assets/product-2.jpg";
+import p3 from "@/assets/product-3.jpg";
+import catGriferia from "@/assets/cat-griferias.jpg";
+import catBanos from "@/assets/cat-banos.jpg";
+import catCocinas from "@/assets/cat-cocinas.jpg";
+
+export const PRODUCTS: Product[] = [
+  {
+    id: "grif-onyx",
+    name: "Grifería Onyx",
+    category: "Griferías",
+    price: "$1,290",
+    image: p1,
+    benefit: "Acabado matte de larga duración",
+    description: "Monomando de alta precisión con tecnología anti-cal y cartucho cerámico de 35 mm.",
+    specs: ["Cartucho cerámico 35 mm", "Acabado PVD negro mate", "Anti-cal incorporado", "Caudal 8 L/min"],
+  },
+  {
+    id: "ducha-aurora",
+    name: "Lluvia Aurora",
+    category: "Baños",
+    price: "$2,450",
+    image: p2,
+    benefit: "Cascada de aire envolvente",
+    description: "Sistema de ducha tipo cascada con iluminación LED cromoterapéutica integrada.",
+    specs: ["Diámetro 30 cm", "LED RGB cromoterapia", "Cascada de aire", "Acabado oro cepillado"],
+  },
+  {
+    id: "cook-vertex",
+    name: "Cooktop Vertex",
+    category: "Cocinas",
+    price: "$3,890",
+    image: p3,
+    benefit: "Inducción inteligente con control táctil",
+    description: "Placa de inducción con zonas flexibles y control deslizante táctil.",
+    specs: ["Vidrio Schott Ceran", "4 zonas flexibles", "Control táctil deslizante", "Potencia 7,400 W"],
+  },
+  {
+    id: "freg-lotus",
+    name: "Fregadero Lotus",
+    category: "Fregaderos",
+    price: "$1,850",
+    image: catCocinas,
+    benefit: "Resistencia antibacteriana",
+    description: "Fregadero de acero inoxidable AISI 304 con tratamiento antibacteriano y escurridor integrado.",
+    specs: ["Acero AISI 304", "Tratamiento antibacteriano", "Escurridor integrado", "Fondo silencioso"],
+  },
+  {
+    id: "camp-silent",
+    name: "Campana Silent Pro",
+    category: "Campanas",
+    price: "$2,990",
+    image: catGriferia,
+    benefit: "Extracción silenciosa de alta eficiencia",
+    description: "Campana decorativa con motor centrífugo, control táctil y filtros de aluminio lavables.",
+    specs: ["Motor centrífugo", "600 m³/h", "45 dB silencioso", "Filtros de aluminio"],
+  },
+  {
+    id: "horn-ecofan",
+    name: "Horno EcoFan",
+    category: "Hornos",
+    price: "$3,290",
+    image: catBanos,
+    benefit: "Cocción uniforme con convección",
+    description: "Horno multifunción con ventilador EcoFan para reparto homogéneo del calor.",
+    specs: ["Multifunción 8 modos", "EcoFan convección", "Limpieza pirolítica", "Clase A+"],
+  },
+  {
+    id: "calen-touch",
+    name: "Calentador Touch",
+    category: "Calentadores",
+    price: "$4,590",
+    image: catGriferia,
+    benefit: "Control digital de temperatura",
+    description: "Calentador a gas con display táctil y encendido electrónico modulante.",
+    specs: ["Display táctil", "Modulación continua", "12 L/min", "Encendido electrónico"],
+  },
+  {
+    id: "grif-titan",
+    name: "Grifería Titán",
+    category: "Griferías",
+    price: "$1,590",
+    image: p1,
+    benefit: "Robustez industrial con diseño premium",
+    description: "Grifería de alto tráfico con cuerpo de latón cromado y aireador antical.",
+    specs: ["Cuerpo latón cromado", "Aireador antical", "Certificación NRF", "Garantía 10 años"],
+  },
+  {
+    id: "ban-victoria",
+    name: "Sanitario Victoria",
+    category: "Baños",
+    price: "$3,290",
+    image: catBanos,
+    benefit: "Descarga silenciosa one-piece",
+    description: "Inodoro one-piece con sistema de descarga dual y asiento con cierre suave.",
+    specs: ["One-piece", "Descarga dual 3/6 L", "Cierre suave", "Sin bridas visibles"],
+  },
+];
